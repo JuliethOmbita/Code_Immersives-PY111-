@@ -1,0 +1,11 @@
+Convert Decimal Number to its equivalent Binary Number format.
+#For converting numbers 0 - 255
+
+Start
+Step 1: Write down the decimal number
+Step 2: Divide it by 2, write down the result and write aside the remainder.
+Step 3: Repeat the step 2 but this time the divisor is the result.  
+Step 4: If the new result is different than 0, then go back to the step 3. On the contrary, continue with the next step. 
+Step 5: Write the remainder values from the last (Most Significant Bit - MSB) until the top value or first remainder (Least Significant Bit - LSB)
+You have found the binary number of your decimal
+End 
